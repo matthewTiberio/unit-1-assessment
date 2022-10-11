@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.display {
+  color: black;
+  font-size: 64px;
+  font-weight: bolder;
+  grid-row: 1;
+  text-align: center;
+  padding: 50px 0 25px 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row: 2;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+  color: white;
+  font-size: 36px;
+  border-radius: 5px;
+  margin: auto 10px;
+  border-color: grey;
+}
+
+.input {
+  height: 50px;
+  width: 150px;
+  color: black;
+  font-size: 36px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: grey;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: white;
+  color: grey;
+}
